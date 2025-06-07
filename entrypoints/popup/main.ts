@@ -18,6 +18,7 @@ const quickPrompts = [
   { name: "Explain Like I'm 5", text: "Explain the main concepts of this page like I'm 5 years old." },
   { name: "Find Key Terms", text: "Identify and define the key technical terms mentioned on this page." },
   { name: "Suggest Improvements", text: "Read the provided text and suggest 3 improvements to make it clearer and more concise." },
+  { name: "Get as Markdown", text: "Extract the main content from the following text and format it as clean, readable Markdown. Exclude any navigation, ads, or footer content." },
 ];
 
 // --- Initialization ---
