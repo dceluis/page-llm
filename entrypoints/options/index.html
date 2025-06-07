@@ -1,0 +1,58 @@
+<!-- entrypoints/options/index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Config</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Extension Settings</h1>
+
+    <div class="setting-group">
+      <label for="provider-select">AI Provider</label>
+      <select id="provider-select">
+        <option value="google">Google Gemini</option>
+        <option value="openai">OpenAI</option>
+      </select>
+    </div>
+
+    <!-- Google Settings -->
+    <div id="google-settings" class="provider-settings">
+      <h2>Google Gemini Settings</h2>
+      <div class="setting-group">
+        <label for="google-api-key">API Key:</label>
+        <div class="api-key-input-wrapper">
+          <input type="password" id="google-api-key" placeholder="Enter your Google API key" />
+          <button type="button" id="toggle-google-api-key">SHOW</button>
+        </div>
+      </div>
+      <div class="setting-group">
+        <label for="google-model-select">Model</label>
+        <select id="google-model-select"></select>
+      </div>
+    </div>
+
+    <!-- OpenAI Settings -->
+    <div id="openai-settings" class="provider-settings">
+      <h2>OpenAI Settings</h2>
+      <div class="setting-group">
+        <label for="openai-api-key">API Key:</label>
+        <div class="api-key-input-wrapper">
+          <input type="password" id="openai-api-key" placeholder="Enter your OpenAI API key" />
+          <button type="button" id="toggle-openai-api-key">SHOW</button>
+        </div>
+      </div>
+      <div class="setting-group">
+        <label for="openai-model-select">Model</label>
+        <select id="openai-model-select"></select>
+      </div>
+    </div>
+
+    <button id="save-btn">Save Settings</button>
+    <p id="status"></p>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
