@@ -1,10 +1,10 @@
 # Page LLM
 
-> A simple browser extension to chat with the current webpage using your own Google Gemini or OpenAI API key.
+A simple browser extension to chat with the current webpage using your own Google Gemini or OpenAI API key.
+
+<img src="public/page-llm.png" alt="Page-LLM" width="200"/>
 
 Page LLM allows you to leverage powerful large language models directly on any webpage. Use it to summarize long articles, explain complex topics, define terms, or ask any question about the page's content.
-
- <!-- Placeholder: You should replace this with an actual screenshot of your popup -->
 
 ## Features
 
